@@ -67,7 +67,7 @@ function line-formulatebadsyntaxscore($badchars){
     return $score
 }
 
-$FilePath = 'C:\Scripts\AoC\2021\Day10\day10_2.txt'
+$FilePath = 'C:\Scripts\AoC\2021\Day10\day10.txt'
 $puzzleinput = gc $FilePath
 [string]$badchars = $null
 $validlines = @()
